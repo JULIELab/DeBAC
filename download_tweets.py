@@ -40,7 +40,7 @@ print(tmp.shape)
 
 # looking for the still "empty" IDs
 IDs = tmp[tmp.text.isnull()].index.tolist()
-print("remaining number of IDs to be looked up:", len(IDs))
+print("starting with", len(IDs), "remaining IDs")
 
 while len(IDs) > 0:
     # api.statuses_lookup() is possible for a list of up to 100 IDs
@@ -53,7 +53,7 @@ while len(IDs) > 0:
         try:
             tweets = api.statuses_lookup(chunk, map_=True, tweet_mode='extended')  # map_=True so that tweets no longer available are included
                                                                                    # tweet_mode='extended' so that long tweets are not truncated
-        except: # if sth. goes wrong, e.g. if twitter is not responding
+        except tweepy.TweepError: # if sth. goes wrong, e.g. if twitter is not responding
             time.sleep(30)
             continue # goes to next chunk (not problematic because missing IDs will be noticed later)
         for t in tweets:
@@ -68,6 +68,8 @@ while len(IDs) > 0:
             tweet_text = tweet_text.replace('\t', ' ').replace('\n', ' ').replace('\r', ' ') # replace whitespaces with spaces
             tmp.loc[tweet_id, 'text'] = tweet_text
         #print("saving...") #TODO: saving this often maybe not necessary and too time consuming?
+        IDs = tmp[tmp.text.isnull()].index.tolist()
+        print("remaining number of IDs to be looked up:", len(IDs), end='\r')
         tmp.to_csv('tweets-text_partly.tsv', sep='\t') # overwriting partly filled file
 
     # reading in the partly filled file
