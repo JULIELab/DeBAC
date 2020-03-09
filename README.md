@@ -32,7 +32,7 @@ According to Twitter’s [Developer Policy](https://developer.twitter.com/en/dev
 
 ## Publikation
 
-Duan, Tinghui; Buechel, Sven; Hahn, Udo (2020): "Romantik" im aktuellen parteipolitischen Diskurs auf Twitter. In: [*DHd2020. Spielräume – Digital Humanities zwischen Modellierung und Interpretation*](https://dhd2020.de/). Paderborn, Germany, March 2-6, 2020. [[Poster]](https://github.com/JULIELab/DeBAC/raw/master/DHd2020/Poster_dhd2020.pdf)
+Duan, Tinghui; Buechel, Sven; Hahn, Udo (2020): "Romantik" im aktuellen parteipolitischen Diskurs auf Twitter. In: [*DHd2020. Spielräume – Digital Humanities zwischen Modellierung und Interpretation*](https://dhd2020.de/). Paderborn, Germany, March 2-6, 2020. [[Poster](https://github.com/JULIELab/DeBAC/raw/master/DHd2020/Poster_dhd2020.pdf)]
 
 ## Acknowledgment
 
