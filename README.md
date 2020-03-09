@@ -14,7 +14,7 @@ DeBAC (DeutscheBundestagsabgeordnetenCorpus) contains tweets of all members of t
 |LINKE|69|56|153,400|
 |GRÜNE|67|59|169,450|
 |non-party|6|4|16,360|
-|**Total|709|478|955,914**|
+|**Total**|**709**|**478**|**955,914**|
 
 # Method
 
