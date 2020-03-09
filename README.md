@@ -2,7 +2,7 @@
 This project goes back to a workshop on political romanticism in summer 2020 (in planing) which is organized by the graduate school ["Romanticism as a Model"](http://modellromantik.uni-jena.de/) at the Friedrich-Schiller-University of Jena (Germany). It aims to find out whether right-wing populist politicians in the Bundestag (German federal parliament) relate their political arguments to the historical german romanticism.
 
 # Data
-DeBAC (/dɪˈbeɪk/, DeutscheBundestagsabgeordnetenCorpus) contains tweets of all members of the Bundestag who have a verified twitter account. Currently, 478 of 709 members of the Bundestag have a verified twitter account. The following table shows the distribution of seats, the number of twitter accounts and the number of tweets of different parties.
+**DeBAC** (/dɪˈbeɪk/, **De**utsche**B**undestags**A**bgeordneten**C**orpus) contains tweets of all members of the Bundestag who have a verified twitter account. Currently, 478 of 709 members of the Bundestag have a verified twitter account. The following table shows the distribution of seats, the number of twitter accounts and the number of tweets of different parties.
 
 |   |Bundestag Members|Twitter Accounts|Tweets|
 |---|---:|---:|---:|
