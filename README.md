@@ -24,7 +24,7 @@ This project is inspired by a discussion of political romanticism at the graduat
 
 2. Getting Tweets
 <br/><br/>We used [Tweepy](https://www.tweepy.org/) to access Twitter API. With the [Get Tweet timelines Method](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline)，we got the textual content as well as various metadata such like created_at, if_retweet etc.
-<br/><br/>Note: Due to the limitation of Twitter API, we could only get up to 3,200 of a account's most recent Tweets at the beginning of the project (Sep. 2019). Since then, however, newly posted Tweets are continuously added to DeBAC. 
+<br/><br/>Note: Due to the limitation of Twitter API, we could only get up to 3,200 of a account's most recent Tweets at the beginning of the project (Sep 2019). Since then, however, newly posted Tweets are continuously added to DeBAC. 
 
 ## Availability
 
