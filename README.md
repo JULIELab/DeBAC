@@ -1,9 +1,9 @@
 ## Background
-This project is inspired by a discussion on political romanticism at the graduate school ["Romanticism as a Model"](http://modellromantik.uni-jena.de/) at the Friedrich-Schiller-University of Jena (Germany). It aims to find out whether right-wing populist politicians in the Bundestag (German federal parliament) relate their political arguments to the historical German romanticism.
+This project is inspired by a discussion of political romanticism at the graduate school ["Romanticism as a Model"](http://modellromantik.uni-jena.de/) at the Friedrich-Schiller-University of Jena (Germany). It aims to find out whether right-wing populist politicians in the Bundestag (German federal parliament) relate their political arguments to the historical German romanticism.
 
 ## Data
-**DeBAC** (**De**utsche**B**undestags**A**bgeordneten**C**orpus) contains tweets by all members of the Bundestag who have verified Twitter accounts. Currently, 478 out of 709 members of the Bundestag have verified Twitter accounts. The following table shows the distribution of seats in the Bundestag, the number of Twitter accounts and the number of Tweets of different parties.
-<br/>(Status: until 2020-03-09)
+**DeBAC** (**De**utsche**B**undestags**A**bgeordneten**C**orpus) contains tweets by all members of the Bundestag who have verified Twitter accounts. Currently, 478 out of 709 members of the Bundestag have verified Twitter accounts. The following table shows the distribution of seats in the Bundestag, the number of Twitter accounts and the number of tweets of different parties.
+<br/>(Status: 2020-03-09)
 
 |   |[Bundestag Members](https://www.bundestag.de/abgeordnete)|Twitter Accounts|Tweets|
 |---|---:|---:|---:|
@@ -20,7 +20,7 @@ This project is inspired by a discussion on political romanticism at the graduat
 ## Methods
 
 1. Collecting Accounts
-<br/><br/>We started collecting Twitter accounts of members of the Bundestag with the official website of the [Bundestag](https://www.bundestag.de/abgeordnete). Since some members didn't publish their Twitter accounts there, we than inspected the office websites of each party where we could collect more Twitter accounts. The MdB_list.tsv provides an overview of all collected accounts and their metadata. Probably there are more members of the Bundestag who have a Twitter account, for exemple the non-party politician [Verena Hartmann](https://twitter.com/verhartmannafd). But as long as we couldn't verify its authenticity, it will not be included in DeBAC.
+<br/><br/>We started collecting Twitter accounts of members of the Bundestag with the official website of the [Bundestag](https://www.bundestag.de/abgeordnete). Since some members didn't publish their Twitter accounts there, we then inspected the office websites of each party where we could collect more Twitter accounts. The MdB_list.tsv provides an overview of all collected accounts and their metadata. Probably there are more members of the Bundestag who have a Twitter account, for exemple the non-party politician [Verena Hartmann](https://twitter.com/verhartmannafd). But as long as we couldn't verify its authenticity, it will not be included in DeBAC.
 
 2. Getting Tweets
 <br/><br/>We used [Tweepy](https://www.tweepy.org/) to access Twitter API. With the [Get Tweet timelines Method](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline) we got the textual content as well as various metadata such like created_at, if_retweet and so on.
