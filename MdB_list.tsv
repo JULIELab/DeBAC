@@ -52,8 +52,6 @@ id	username	screenname	lastname	firstname	party	country	membership
 841412635270762496	h_weyel	Prof. Harald Weyel	Weyel	Harald	AfD	DE	MdB
 920193967937019904	ChrWirthMdB	Dr. Christian Wirth, MdB	Wirth	Christian	AfD	DE	MdB
 4503658823	Witt_Uwe	Uwe Witt MdB	Witt	Uwe	AfD	DE	MdB
-932931561015730176	MieruchMario	Mario Mieruch, MdB	Mieruch	Mario	Parteilos	DE	MdB
-1273010575	FraukePetry	Frauke Petry	Petry	Frauke	Parteilos	DE	MdB
 378693834	peteraltmaier	Peter Altmaier	Altmaier	Peter	CDU	DE	MdB
 934016327567790080	Philipp_Amthor	Philipp Amthor	Amthor	Philipp	CDU	DE	MdB
 2797812265	Thomas_Bareiss	Thomas Bareiß	Bareiß	Thomas	CDU	DE	MdB
@@ -370,6 +368,8 @@ id	username	screenname	lastname	firstname	party	country	membership
 4557858142	ZdebelHubertus	Hubertus Zdebel, MdB	Zdebel	Hubertus	LINKE	DE	MdB
 52119203	marcobuelow	Marco Bülow	Bülow	Marco	Parteilos	DE	MdB
 2546790747	uwe_kamann	Uwe Kamann	Kamann	Uwe	Parteilos	DE	MdB
+932931561015730176	MieruchMario	Mario Mieruch, MdB	Mieruch	Mario	Parteilos	DE	MdB
+1273010575	FraukePetry	Frauke Petry	Petry	Frauke	Parteilos	DE	MdB
 42401449	NielsAnnen	Niels Annen	Annen	Niels	SPD	DE	MdB
 724565991104110592	MdB_Ulrike_Bahr	MdB Ulrike Bahr	Bahr	Ulrike	SPD	DE	MdB
 4097559143	katarinabarley	Katarina Barley	Barley	Katarina	SPD	DE	MdB
