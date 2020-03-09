@@ -28,7 +28,7 @@ This project is inspired by a discussion of political romanticism at the graduat
 
 ## Availability
 
-According to Twitter’s [Developer Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy) we are not allowed to provide downloadable datasets of Twitter Content. Instead, we provide a complete [list of Tweets IDs](tweets-meta.tsv) and [Python scripts](download_tweets.py) which can download the content of these Tweets via Twitter API. In this way, you can reconstruct DeBAC on your local computer. The only requirement is to apply for a [Twitter Developer account](https://developer.twitter.com/).
+According to Twitter’s [Developer Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy) we are not allowed to provide downloadable datasets of Twitter Content. Instead, we provide a complete [list of Tweets IDs](tweets-meta.tsv) and [Python scripts](download_tweets.py) which can be used to download the content of these Tweets via Twitter API. In this way, you can reconstruct DeBAC on your local computer. The only requirement is to apply for a [Twitter Developer account](https://developer.twitter.com/).
 
 ## Publikation
 
