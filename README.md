@@ -1,7 +1,7 @@
 # Background
 This project goes back to a workshop on political romanticism in summer 2020 (in planing) which is organized by the graduate school ["Romanticism as a Model"](http://modellromantik.uni-jena.de/) at the Friedrich-Schiller-University of Jena (Germany). It aims to find out whether right-wing populist politicians in the Bundestag (German federal parliament) relate their political arguments to the historical german romanticism.
 
-# Data
+# Data (Status: 2020-03-09)
 **DeBAC** (/dɪˈbeɪk/, **De**utsche**B**undestags**A**bgeordneten**C**orpus) contains tweets of all members of the Bundestag who have a verified twitter account. Currently, 478 of 709 members of the Bundestag have a verified twitter account. The following table shows the distribution of seats, the number of twitter accounts and the number of tweets of different parties.
 
 |   |[Bundestag Members](https://www.bundestag.de/abgeordnete)|Twitter Accounts|Tweets|
@@ -29,10 +29,10 @@ This project goes back to a workshop on political romanticism in summer 2020 (in
 
 According to Twitter’s [Developer Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy) we are not allowed to provide downloadable datasets of Twitter Content. Instead, we provide a complete [list of Tweets IDs](tweets-meta.tsv)) and a [Python script](download_tweets.py) which can download the content of these Tweets via Twitter API. In this way, you can reconstruct DeBAC on your local computer. The only requirement is to apply for a [Twitter Developer account](https://developer.twitter.com/).
 
-# Publikations
+# Publikation
 
 Duan, Tinghui; Buechel, Sven; Hahn, Udo (2020): "Romantik" im aktuellen parteipolitischen Diskurs auf Twitter. In: [*DHd2020. Spielräume – Digital Humanities zwischen Modellierung und Interpretation*](https://dhd2020.de/). Paderborn, Germany, March 2-6, 2020. [Poster](https://github.com/JULIELab/DeBAC/raw/master/DHd2020/Poster_dhd2020.pdf)
 
 # Acknowledgment
 
-We thank Susanna Rücker for her support with the data analysis.
+We thank [Susanna Rücker](https://github.com/susannaruecker) for her support with the data analysis.
