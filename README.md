@@ -16,7 +16,7 @@ DeBAC (/dɪˈbeɪk/, DeutscheBundestagsabgeordnetenCorpus) contains tweets of al
 |non-party|6|4|16,360|
 |**Total**|**709**|**478**|**955,914**|
 
-* Due to the limitation of Twitter API ([Get Tweet timelines](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline)), we could only get up to 3,200 of a account's most recent Tweets at the beginning of the project (Sept. 2019). Since then, newly posted Tweets are continuously added to DeBAC. 
+Note: Due to the limitation of Twitter API ([Get Tweet timelines](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline)), we could only get up to 3,200 of a account's most recent Tweets at the beginning of the project (Sept. 2019). Since then, newly posted Tweets are continuously added to DeBAC. 
 
 # Method
 
