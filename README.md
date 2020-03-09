@@ -4,8 +4,8 @@ This project goes back to a workshop on political romanticism in summer 2020 (in
 # Data
 DeBAC (DeutscheBundestagsabgeordnetenCorpus) contains tweets of all members of the Bundestag who have a verified twitter account. Currently, 478 of 709 members of the Bundestag have a verified twitter account, including all parties:
 
-|   |Members in the Bundestag|Twitter Accounts|Tweets|
-|---|---|---|---|
+|   |Bundestag Members|Twitter Accounts|Tweets|
+|---|---:|---:|---:|
 |CDU|200|106|173,451|
 |CSU|46|24|22,594|
 |SPD|152|107|214,934|
@@ -14,7 +14,7 @@ DeBAC (DeutscheBundestagsabgeordnetenCorpus) contains tweets of all members of t
 |LINKE|69|56|153,400|
 |GRÜNE|67|59|169,450|
 |non-party|6|4|16,360|
-|Total|709|478|955,914|
+|**Total|709|478|955,914**|
 
 # Method
 
