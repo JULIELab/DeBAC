@@ -20,10 +20,10 @@ This project is inspired by a discussion of political romanticism at the graduat
 ## Methods
 
 1. Collecting Accounts
-<br/><br/>We started collecting Twitter accounts of members of the Bundestag with the official website of the [Bundestag](https://www.bundestag.de/abgeordnete). Since some members didn't publish their Twitter accounts there, we then inspected the office websites of each party where we could collect more Twitter accounts. The MdB_list.tsv provides an overview of all the collected accounts and their metadata. It's possible that there are more members of the Bundestag who have Twitter accounts. For exemple the account [https://twitter.com/verhartmannafd](https://twitter.com/verhartmannafd) seems to belong to the non-party politician Verena Hartmann. But since this is not shown on any official websites, we didn't included it in DeBAC.
+<br/><br/>We started collecting Twitter accounts of members of the Bundestag with the official website of the [Bundestag](https://www.bundestag.de/abgeordnete). Since some members did not publish their Twitter accounts there, we then inspected the office websites of each party where we could collect more Twitter accounts. The MdB_list.tsv provides an overview of all the collected accounts and their metadata. It is possible that there are more members of the Bundestag who have Twitter accounts. For exemple the account [https://twitter.com/verhartmannafd](https://twitter.com/verhartmannafd) seems to belong to the non-party politician Verena Hartmann. But since this is not shown on any official websites, we did not included it in DeBAC.
 
 2. Getting Tweets
-<br/><br/>We used [Tweepy](https://www.tweepy.org/) to access Twitter API. With the [Get Tweet timelines Method](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline) we got the textual content as well as various metadata such like created_at, if_retweet and so on.
+<br/><br/>We used [Tweepy](https://www.tweepy.org/) to access Twitter API. With the [Get Tweet timelines Method](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline)， we got the textual content as well as various metadata such like created_at, if_retweet etc.
 <br/>Note: Due to the limitation of Twitter API, we could only get up to 3,200 of a account's most recent Tweets at the beginning of the project (Sept. 2019). Since then, newly posted Tweets are continuously added to DeBAC. 
 
 ## Availability
