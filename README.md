@@ -3,7 +3,6 @@ This project is inspired by a discussion of political romanticism at the graduat
 
 ## Data
 **DeBAC** (**De**utsche**B**undestags**A**bgeordneten**C**orpus) contains Tweets by all members of the Bundestag who have verified Twitter accounts. Currently, 478 out of 709 members of the Bundestag have verified Twitter accounts. The following table shows the distribution of seats in the Bundestag, the number of Twitter accounts and the number of Tweets of different parties.
-<br/>(Status: 2020-03-09)
 
 |   |[Bundestag Members](https://www.bundestag.de/abgeordnete)|Twitter Accounts|Tweets|
 |---|---:|---:|---:|
@@ -16,6 +15,7 @@ This project is inspired by a discussion of political romanticism at the graduat
 |[GRÜNE](https://www.gruene-bundestag.de/abgeordnete)|67|59|169,450|
 |non-party|6|4|16,360|
 |**Total**|**709**|**478**|**955,914**|
+<br/>(Status: 2020-03-09)
 
 ## Methods
 
