@@ -6,15 +6,15 @@ DeBAC (DeutscheBundestagsabgeordnetenCorpus) contains tweets of all members of t
 
 |   |Members in the Bundestag|Twitter Accounts|Tweets|
 |---|---|---|---|
-|CDU|200|106|173,445|
+|CDU|200|106|173,451|
 |CSU|46|24|22,594|
 |SPD|152|107|214,934|
 |AfD|89|53|83,445|
 |FDP|80|69|122,280|
-|LINKE|69|56|153,359|
+|LINKE|69|56|153,400|
 |GRÜNE|67|59|169,450|
 |non-party|6|4|16,360|
-|Total|709|478|955,867|
+|Total|709|478|955,914|
 
 # Method
 
