@@ -19,13 +19,20 @@ This project goes back to a workshop on political romanticism in summer 2020 (in
 # Method
 
 1. Collecting Accounts
-<br/>We started collecting Twitter accounts of members of the Bundestag with the official website of the [Bundestag](https://www.bundestag.de/abgeordnete). Since some members didn't publish their Twitter accounts there, we than inspected the office websites of each party where we could collect more Twitter accounts. The MdB_list.tsv provides an overview of all collected accounts and their metadata. Probably there are more members of the Bundestag who have a Twitter account, for exemple the non-party politician [Verena Hartmann](https://twitter.com/verhartmannafd). But since we couldn't verify its authenticity, it's not included in DeBAC.
+<br/><br/>We started collecting Twitter accounts of members of the Bundestag with the official website of the [Bundestag](https://www.bundestag.de/abgeordnete). Since some members didn't publish their Twitter accounts there, we than inspected the office websites of each party where we could collect more Twitter accounts. The MdB_list.tsv provides an overview of all collected accounts and their metadata. Probably there are more members of the Bundestag who have a Twitter account, for exemple the non-party politician [Verena Hartmann](https://twitter.com/verhartmannafd). But as long as we couldn't verify its authenticity, it will not be included in DeBAC.
 
 2. Getting Tweets
-  Note: Due to the limitation of Twitter API ([Get Tweet timelines](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline)), we could only get up to 3,200 of a account's most recent Tweets at the beginning of the project (Sept. 2019). Since then, newly posted Tweets are continuously added to DeBAC. 
+<br/><br/>We used [Tweepy](https://www.tweepy.org/) to access Twitter API. With the [Get Tweet timelines Method](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline) we got the textual content and various metadata such like created_at, if_retweet and so on.
+<br/>Note: Due to the limitation of Twitter API, we could only get up to 3,200 of a account's most recent Tweets at the beginning of the project (Sept. 2019). Since then, newly posted Tweets are continuously added to DeBAC. 
 
 # Availability
 
+According to Twitter’s [Developer Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy) we are not allowed to provide downloadable datasets of Twitter Content. Instead, we provide a complete list of Tweets IDs (see tweets-meta.txt) and a Python script which can download the content of these Tweets via Twitter API. In this way, you can reconstruct DeBAC on your local computer. The only requirement is to apply for a [Twitter Developer account](https://developer.twitter.com/).
+
 # Publikations
 
-# 
+Duan, Tinghui; Buechel, Sven; Hahn, Udo (2020): "Romantik" im aktuellen parteipolitischen Diskurs auf Twitter. In: [DHd2020. Spielräume – Digital Humanities zwischen Modellierung und Interpretation](https://dhd2020.de/). Paderborn, Germany, March 2-6, 2020. [Poster](https://github.com/JULIELab/DeBAC/raw/master/DHd2020/Poster_dhd2020.pdf)
+
+# Acknowledgment
+
+This project 
