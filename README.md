@@ -15,7 +15,8 @@ This project is inspired by a discussion of political romanticism at the graduat
 |[GRÜNE](https://www.gruene-bundestag.de/abgeordnete)|67|59|169,450|
 |non-party|6|4|16,360|
 |**Total**|**709**|**478**|**955,914**|
-<br/>(Status: 2020-03-09)
+
+(Status: 2020-03-09)
 
 ## Methods
 
