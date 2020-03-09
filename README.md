@@ -20,11 +20,11 @@ This project goes back to a workshop on political romanticism in summer 2020 (in
 
 * Collecting Accounts
 
-> We started collecting Twitter accounts of members of the Bundestag with the official website of the [Bundestag](https://www.bundestag.de/abgeordnete). Since some members didn't publish their Twitter accounts there, we than inspected the office websites of each party where we could collect more Twitter accounts. The MdB_list.tsv provides an overview of all collected accounts and their metadata. Probably there are more members of the Bundestag who have a Twitter account, for exemple the non-party politician [Verena Hartmann](https://twitter.com/verhartmannafd). But since we couldn't verify its authenticity, it's not included in DeBAC.
+: We started collecting Twitter accounts of members of the Bundestag with the official website of the [Bundestag](https://www.bundestag.de/abgeordnete). Since some members didn't publish their Twitter accounts there, we than inspected the office websites of each party where we could collect more Twitter accounts. The MdB_list.tsv provides an overview of all collected accounts and their metadata. Probably there are more members of the Bundestag who have a Twitter account, for exemple the non-party politician [Verena Hartmann](https://twitter.com/verhartmannafd). But since we couldn't verify its authenticity, it's not included in DeBAC.
 
 * Getting Tweets
 
-> Note: Due to the limitation of Twitter API ([Get Tweet timelines](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline)), we could only get up to 3,200 of a account's most recent Tweets at the beginning of the project (Sept. 2019). Since then, newly posted Tweets are continuously added to DeBAC. 
+: Note: Due to the limitation of Twitter API ([Get Tweet timelines](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline)), we could only get up to 3,200 of a account's most recent Tweets at the beginning of the project (Sept. 2019). Since then, newly posted Tweets are continuously added to DeBAC. 
 
 # Availability
 
