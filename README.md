@@ -4,15 +4,15 @@ This project goes back to a workshop on political romanticism in summer 2020 (in
 # Data
 **DeBAC** (/dɪˈbeɪk/, **De**utsche**B**undestags**A**bgeordneten**C**orpus) contains tweets of all members of the Bundestag who have a verified twitter account. Currently, 478 of 709 members of the Bundestag have a verified twitter account. The following table shows the distribution of seats, the number of twitter accounts and the number of tweets of different parties.
 
-|   |Bundestag Members|Twitter Accounts|Tweets|
+|   |[Bundestag Members](https://www.bundestag.de/abgeordnete)|Twitter Accounts|Tweets|
 |---|---:|---:|---:|
-|CDU|200|106|173,451|
-|CSU|46|24|22,594|
-|SPD|152|107|214,934|
-|AfD|89|53|83,445|
-|FDP|80|69|122,280|
-|LINKE|69|56|153,400|
-|GRÜNE|67|59|169,450|
+|[CDU](https://www.cducsu.de/hier-stellt-die-cducsu-bundestagsfraktion-ihre-abgeordneten-vor)|200|106|173,451|
+|[CSU](https://www.cducsu.de/hier-stellt-die-cducsu-bundestagsfraktion-ihre-abgeordneten-vor)|46|24|22,594|
+|[SPD](https://www.spdfraktion.de/abgeordnete/alle)|152|107|214,934|
+|[AfD](https://www.afdbundestag.de/abgeordnete/)|89|53|83,445|
+|[FDP](https://www.fdpbt.de/fraktion/abgeordnete)|80|69|122,280|
+|[LINKE](https://www.linksfraktion.de/fraktion/abgeordnete/)|69|56|153,400|
+|[GRÜNE](https://www.gruene-bundestag.de/abgeordnete)|67|59|169,450|
 |non-party|6|4|16,360|
 |**Total**|**709**|**478**|**955,914**|
 
