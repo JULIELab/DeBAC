@@ -1,2 +1,7 @@
 .DS_Store
+venv/*
 *.tweet
+/twitter_credentials.json
+tweets-text.tsv
+tweets-text_partly.tsv
+.idea
